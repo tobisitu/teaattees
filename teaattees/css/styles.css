@@ -1,0 +1,347 @@
+/*INDEX.HTML*/
+
+/*Navigation*/
+.navbar{
+	background-color: #bad4aa;
+	font-family: 'Neucha', cursive;
+	font-size: 21px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.navbar ul li {
+	display: inline-block;
+	padding-left: 5px;
+	padding-right: 5px;
+	text-align: center;
+
+}
+.navbar ul li a:link,
+.navbar ul li a:visited{
+	text-decoration: none;
+}
+
+.navbar ul li a:hover,
+.navbar ul li a:active{
+	text-decoration: none;
+}
+
+/*Logo settings*/
+
+.logo{
+	width: 100px;
+	height: auto;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+/*Banner Section*/
+
+.banner{
+	position: relative;
+	text-align: center;
+}
+.banner h1{
+	font-family: "Satisfy", cursive;
+	font-size:7vw;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*Tea of the Month Section*/
+
+.tea_of_the_month{
+background-color: #af9ab2;
+padding: 60px; 
+}
+
+.tea_of_the_month h2{
+	padding-bottom: 50px;
+	text-align: center;
+	font-family: 'Neucha', cursive;
+}
+
+.tea_of_the_month_descr h4{
+	font-family: 'Satisfy', cursive;
+	font-size: 27px;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 15px;
+}
+
+.tea_of_the_month_descr p{
+	padding-left: 25px;
+	font-family: 'Neucha', cursive;
+	font-size: 20px;
+}
+
+/*Size Tea of the Month Image*/
+
+.ImgOfMonthTea{
+	width: 100%;
+	height: auto;
+}
+
+/*Testimonial Section*/
+
+.testimonials{
+	background-color: #f1eeee;
+	padding: 60px;
+}
+
+.testimonials h2{
+	padding-bottom: 50px;
+	text-align: center;
+	font-family: 'Neucha', cursive;
+}
+
+.customer-img{
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+}
+.carousel-caption{
+	font-family: 'Neucha', cursive;
+}
+.carousel-caption h5{
+	font-size: 30px;
+}
+.carousel-caption p{
+	font-size: 25px;
+}
+/*Newsletter Section*/
+
+.newsletter{
+	font-family: 'Neucha', cursive;
+	background-color: #B2CEDE;
+	padding: 60px;
+}
+.newsletter label {
+	font-family: 'Neucha', cursive;
+	font-size: 18px;
+}
+
+.newsletter h2{
+	padding-bottom: 50px;
+	text-align: center;
+	font-family: 'Neucha', cursive;
+}
+
+/*Footer Section*/
+
+.footer{
+	background-color: #998888;
+	padding-top: 40px; 
+	padding-bottom: 40px;
+	font-family: 'Neucha', cursive;
+}
+
+.footer p{
+	background-color: #f1eeee;
+	padding: 12px;
+	text-align: center;
+}
+
+footer a:link,
+footer a:visited{
+	color: black;
+}
+
+footer a:hover,
+footer a:active{
+	color: black;
+	text-decoration: none;
+}
+
+.copyright{
+	text-align: center;
+}
+
+.copyright ul li{
+	display: inline-block;
+}
+
+.footerlogo{
+	width: 60px;
+	height: auto;
+	padding: 10px;
+}
+
+/*ABOUTUS.HTML*/
+
+.ourstory{
+	background-color: #f1eeee;
+	padding: 60px;
+}
+
+.ourstory h1{
+	text-align: center;
+	padding-bottom: 30px;
+	font-family: 'Neucha', cursive;
+
+}
+
+.founder h2,
+.startup h2,
+.goal h2{
+	padding-bottom: 5px;
+	font-family: 'Neucha', cursive;
+}
+
+.founder p,
+.startup p,
+.goal p{
+	font-family: 'Neucha', cursive;
+	font-size: 20px;
+}
+
+.founder-img{
+	width: 100%;
+	height: auto;
+}
+
+.founder, .startup{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.logo_startup{
+	width: 100%;
+	height: auto;
+	padding: 20px;
+}
+
+/*PRODUCTS.HTML*/
+
+.products{
+	background-color: #f1eeee;
+	padding: 30px;
+}
+
+.products h1{
+	padding-bottom: 50px;
+	text-align: center;
+	font-family: 'Neucha', cursive;
+}
+
+.tea_display{
+	position: relative;/*
+	display:inline-block;*/
+}
+
+.product_img{
+	width: 100%;
+	height: auto;
+	opacity: 0.3;
+}
+
+.tea_details{
+	font-size: 16px;
+	position: absolute;
+	top: 52%;
+	left: 52%;
+	transform: translate(-50%, -50%);
+}
+
+.tea_details h4{
+	font-family: 'Satisfy', cursive;
+	font-size: 24px;
+}
+
+.tea_details p{
+	font-family: 'Neucha', cursive;
+	font-size: 20px;
+}
+
+.tea_display .overlay{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	/*background:#bad4aa;*/
+	/*opacity:0.7;*/
+}
+
+.cups img{
+	justify-content: center;
+	background-color: #f1eeee;
+}
+
+.cups h2{
+	padding: 50px;
+	text-align: center;
+	font-family: 'Neucha', cursive;
+}
+
+.cup_sizes{
+	width: 95%;
+	height: auto;
+}
+
+/*JOINUS.HTML*/
+
+.join{
+	background-color: #f1eeee;
+	padding: 60px;
+}
+
+.application h1{
+	text-align: center;
+	font-family: 'Neucha', cursive;
+}
+
+.application label {
+	font-family: 'Neucha', cursive;
+	font-size: 18px;
+}
+
+.submit{
+	font-family: 'Neucha', cursive;
+	background-color: #af9ab2;
+
+}
+
+/*FINDUS.HTML*/
+
+/*social media icons*/
+.social-media{
+	width: 40px;
+	height: auto;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 30px;
+}
+
+.findUs{
+	padding: 20px;
+	text-align: center;
+	font-family: 'Neucha', cursive;
+	background-color: #f1eeee;
+}
+
+.findUs h1{
+	padding-bottom: 50px;
+}
+
+.findUs h2{
+	padding-bottom: 20px;
+}
+
+.findUs p{
+	font-size: 18px;
+}
+
+.findUs p a:link,
+.findUs p a:visited{
+	color: black;
+}
+
+.findUs p a:hover,
+.findUs p a:active{
+	color: black; 
+}
